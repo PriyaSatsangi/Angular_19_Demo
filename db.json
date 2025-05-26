@@ -1,0 +1,11 @@
+{
+    "users":[
+        {
+            "Id": "1",
+            "name": "Priya",
+            "email": "psatsangi09@gmail.com",
+            "password": "Test#321",
+            "isAggreee": false
+        }
+    ]
+}

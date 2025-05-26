@@ -65,7 +65,7 @@ export class UserComponent implements OnInit{
 
 }
 
-class User {
+export class User {
   Id: Number;
   name: string;
   email: string;

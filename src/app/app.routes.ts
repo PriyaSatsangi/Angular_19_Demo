@@ -4,6 +4,7 @@ import { SignupComponent } from './components/signup/signup.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { UserComponent } from './components/user/user.component';
 import { EmployeeComponent } from './components/employee/employee.component';
+import { UserWithJsonComponent } from './components/user-with-json/user-with-json.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
@@ -14,7 +15,7 @@ export const routes: Routes = [
     component: DashboardComponent,
     children: [
       { path: 'user', component: UserComponent },
-      { path: 'emp', component: EmployeeComponent },
+      { path: 'userwithjson', component: UserWithJsonComponent },
       // You can add more dashboard children like:
       // { path: 'profile', component: ProfileComponent },
     ],
